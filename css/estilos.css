@@ -1,0 +1,87 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+body{
+    background:rgb(248, 248, 248);
+}
+main{
+    background:rgb(8, 8, 8);
+}
+head{
+    background:white;
+}
+header{
+    background:white;
+display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.logo img{
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+    padding:10px;
+}
+.titulo h1{
+    font-size:45px;
+    text-align:center;
+    color:rgb(14, 13, 13);
+}
+nav{
+    background:#d8e0ea;
+    display:flex;
+    justify-content:center;
+    gap:70px;
+    padding:18px;
+}
+nav a{
+    text-decoration:none;
+    color:black;
+    font-size:35px;
+    font-weight:bold;
+}
+.categorias{
+    width:90%;
+    margin:auto;
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:50px;
+    padding:40px 0;
+}
+.card{
+    text-align:center;
+}
+.card img{
+    width:250px;
+    height:250px;
+    border-radius:50%;
+    object-fit:cover;
+    background:#82bfff;
+}
+.card h2 a{
+    font-size:42px;
+    color:rgb(246, 248, 246);
+    margin-top:15px;
+}
+footer{
+    color:rgb(12, 12, 12);
+    text-align:center;
+    padding:25px;
+}
+.bienvenida{
+    background:rgb(68, 125, 199);
+    font-size:28px;
+    color:rgb(246, 248, 246);
+    text-align:justify;
+    margin:auto;
+    padding:25px;
+}
+.card img{
+    transition:0.3s;
+}
+.card:hover img{
+    transform:scale(1.1);
+}
