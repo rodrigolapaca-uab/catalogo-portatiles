@@ -10,9 +10,9 @@
 
     <main>
 
-        <section>
+        <section >
 
-            <div>
+            <div >
 
                 <h1>¡Hablemos!</h1>
 
@@ -20,32 +20,39 @@
                     Quieres ponerte en contacto con nosotros? Completa el formulario y nos pondremos en contacto contigo lo antes posible.
                 </p>
 
-                <form>
+                <form id="form-contacto" novalidate>
 
                     <label for="nombre">Tu nombre</label><br>
                     <input
                         type="text"
                         id="nombre"
-                        placeholder="Nombre..."
+                        name="nombre"
+                        placeholder="Nombre..." required
                     ><br><br>
 
                     <label for="correo">Tu correo electrónico</label><br>
                     <input
                         type="email"
                         id="correo"
-                        placeholder="Email..."
+                        name="correo"
+                        placeholder="Email..." required
                     ><br><br>
 
                     <label for="mensaje">Tu mensaje</label><br>
                     <textarea
                         id="mensaje"
+                        name="mensaje"
                         rows="6"
-                        placeholder="Mensaje..."
+                        placeholder="Mensaje..." 
                     ></textarea><br><br>
 
                     <button type="submit">
                         Enviar Mensaje
                     </button>
+                       <br>
+                    <p id="error-contacto" class="aviso"></p>
+                   <br>
+        
 
                 </form>
 
@@ -72,6 +79,6 @@
         </section>
 
     </main>
-
+<script src="script/script.js"></script>
 </body>
 </html>
