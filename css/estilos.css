@@ -163,3 +163,11 @@ footer{
     background:#333;
     color:white;
 }
+.oscuro .bienvenida{
+    background:rgb(151, 154, 158);
+    font-size:28px;
+    color:rgb(12, 12, 12);
+    text-align:justify;
+    margin:auto;
+    padding:25px;
+}
