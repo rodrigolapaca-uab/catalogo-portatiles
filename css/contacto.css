@@ -80,15 +80,15 @@ button{
 }
 .aviso.error {
   display: block;
-  background-color: #3a1414;
-  color: #ffb4b4;
-  border-left: 4px solid #eb4343;
+  background-color: #e62727;
+  color: #f7f5f5;
+  border-left: 4px solid #181717;
 }
 .aviso.exito {
   display: block;
-  background-color: #14301b;
-  color: #b7f0c4;
-  border-left: 4px solid #3fbf6a;
+  background-color: #0b7726;
+  color: #f1f1f1;
+  border-left: 4px solid #0c0c0c;
 }
 button:hover{
     background:#084f8b;

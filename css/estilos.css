@@ -35,13 +35,23 @@ nav{
     display:flex;
     justify-content:center;
     gap:70px;
-    padding:18px;
+    padding:5px 35px;
+    align-items: center;
 }
 nav a{
     text-decoration:none;
     color:black;
     font-size:35px;
     font-weight:bold;
+}
+.botonModo {
+  background-color: #413f3e;
+  color: #faf9f8;
+  border: none;
+  border-radius: 20px;
+  padding: 8px 18px;
+  font: inherit;
+  font-weight: bold;
 }
 .categorias{
     width:90%;
