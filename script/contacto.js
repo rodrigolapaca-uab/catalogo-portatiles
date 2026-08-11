@@ -29,6 +29,7 @@ function revisarContacto(event) {
     avisoError.classList.add("exito");
     avisoError.classList.remove("error");
 
+    formularioContacto.submit();
   }
 }
 formularioContacto.addEventListener("submit", revisarContacto);
