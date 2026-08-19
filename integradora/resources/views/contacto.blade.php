@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="css/contacto.css">
+</head>
+<body>
+
+    <main>
+
+        <section >
+
+            <div >
+
+                <h1>¡Hablemos!</h1>
+
+                <p>
+                    Quieres ponerte en contacto con nosotros? Completa el formulario y nos pondremos en contacto contigo lo antes posible.
+                </p>
+
+                <form id="form-contacto" novalidate method="POST" action="enviar.php" >
+
+                    <label for="nombre">Tu nombre</label><br>
+                    <input
+                        type="text"
+                        id="nombre"
+                        name="nombre"
+                        placeholder="Nombre..." required
+                    ><br><br>
+
+                    <label for="correo">Tu correo electrónico</label><br>
+                    <input
+                        type="email"
+                        id="correo"
+                        name="correo"
+                        placeholder="Email..." required
+                    ><br><br>
+
+                    <label for="mensaje">Tu mensaje</label><br>
+                    <textarea
+                        id="mensaje"
+                        name="mensaje"
+                        rows="6"
+                        placeholder="Mensaje..." 
+                    ></textarea><br><br>
+
+                    <button type="submit">
+                        Enviar Mensaje
+                    </button>
+           
+                    <p id="error-contacto" class="aviso"></p>
+        
+
+                </form>
+
+            </div>
+
+            <div>
+
+                <img src="imagenes/contacto.png" alt="Imagen de contacto">
+
+                <p>📍 Av. Heroinas, entre Junin y Hamiraya #6542</p>
+
+                <p>📞 65337793</p>
+
+                <p>✉ techsoluciones@gmail.com</p>
+
+                <p>
+                    Facebook |
+                    Twitter |
+                    Instagram
+                </p>
+
+            </div>
+
+        </section>
+
+    </main>
+<script src="script/contacto.js"></script>
+</body>
+</html>

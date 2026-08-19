@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>Tech Soluciones Computo</title>
+    <link rel="stylesheet" href="{{ asset('css/estilos.css') }}">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="{{ asset('imagenes/logo.png') }}" alt="">
+       </div>
+        <div class="titulo">
+            <h1>
+                SERVICIO TECNICO Y VENTAS <br>
+                DE COMPUTADORAS
+            </h1>
+        </div>
+    </header>
+
+    <nav>
+            <a href="index.html">Inicio</a>
+            <a href="ofertas.html">Ofertas</a>
+            <a href="contacto.html">Contacto</a>
+            <a href="quienes.html">Quienes somos</a>
+            <button id="modoOscuro" class="botonModo">🌙 Modo Oscuro</button>
+    </nav>
+    <main>
+        <section class="categorias">
+            <div class="card">
+                <img src="imagenes/laptop.png">
+                <h2><a href="portatiles.html">PORTATILES</a></h2>
+            </div>
+            <div class="card">
+                <img src="imagenes/pc.png" width="220"><br>
+                <h2><a href="escritorio.html">PC DE ESCRITORIO</a></h2>
+            </div>
+            <div class="card">
+                <img src="imagenes/monitor.png" width="300"><br>
+                <h2><a href="monitores.html">MONITORES</a></h2>
+            </div>
+            <div class="card">
+                <img src="imagenes/impresora.png" width="220"><br>
+                <h2><a href="impresoras.html">IMPRESORAS</a></h2>
+            </div>
+            <div class="card">
+                <img src="imagenes/accesorios.png" width="350"><br>
+                <h2><a href="accesorios.html">ACCESORIOS</a></h2>
+            </div>
+            <div class="card">
+                <img src="imagenes/suministros.png" width="220"><br>
+                <h2><a href="suministros.html">SUMINISTROS</a></h2>
+            </div>   
+        </section>
+        <section class="bienvenida">
+            <h2>Bienvenidos a Tech Soluciones Computo</h2><br>
+            <p>En Tech Soluciones Computo nos dedicamos a brindar soluciones integrales en el ámbito de la tecnología y la informática. Nuestro equipo de expertos está comprometido en ofrecer servicios de alta calidad, desde reparaciones y mantenimiento de computadoras hasta asesoramiento en la compra de equipos y accesorios.</p>
+        </section>
+    </main>
+    <footer>
+    <p>© 2026 TSC Desarrollado por: Rodrigo Lapaca - UAB.</p>
+    </footer>
+    <script src="{{ asset('js/script.js') }}"></script>
+</body>
+</html>
