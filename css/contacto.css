@@ -1,105 +1,294 @@
 *{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:Arial, Helvetica, sans-serif;
+
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+
 }
+
+
 
 body{
-    background:#0d5b95;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    min-height:100vh;
+
+background:#0d5b95;
+
 }
+
+
+
+/* HEADER */
+
+header{
+
+height:95px;
+
+background:#dce4ee;
+
+display:flex;
+
+align-items:center;
+
+}
+
+
+
+.logo{
+
+width:150px;
+
+margin-left:40px;
+
+}
+
+
+
+nav{
+
+display:flex;
+
+gap:70px;
+
+margin:auto;
+
+}
+
+
+
+nav a{
+
+font-size:30px;
+
+font-weight:bold;
+
+text-decoration:none;
+
+color:#000;
+
+}
+
+
+
+nav a:hover{
+
+color:#075ea8;
+
+}
+
+
+
+/* CONTENEDOR */
 
 main{
-    width:90%;
-    max-width:1100px;
+
+width:100%;
+
 }
 
-section{
-    background:#82d3ff;
-    border-radius:20px;
-    display:flex;
-    justify-content:space-between;
-    padding:50px;
-    gap:50px;
-    box-shadow:0 10px 20px rgba(0,0,0,.3);
+
+
+.contacto-box{
+
+
+width:60%;
+
+margin:55px auto;
+
+
+background:#82d3ff;
+
+
+border-radius:20px;
+
+
+padding:45px;
+
+
+display:flex;
+
+
+gap:60px;
+
+
+box-shadow:0 10px 20px rgba(0,0,0,.3);
+
+
 }
 
-section div{
-    flex:1;
+
+
+/* IZQUIERDA */
+
+
+.formulario{
+
+width:55%;
+
 }
+
+
 
 h1{
-    color:#0b4f8b;
-    margin-bottom:20px;
+
+font-size:35px;
+
+color:#075ea8;
+
+margin-bottom:20px;
+
 }
 
-p{
-    margin-bottom:20px;
-    color:#333;
-    line-height:1.5;
+
+
+.formulario p{
+
+font-size:18px;
+
+line-height:1.5;
+
+margin-bottom:25px;
+
 }
+
+
 
 label{
-    font-weight:bold;
-    display:block;
-    margin-bottom:5px;
+
+display:block;
+
+font-weight:bold;
+
+margin-bottom:8px;
+
 }
+
+
 
 input,
 textarea{
-    width:100%;
-    padding:12px;
-    border:none;
-    border-radius:8px;
-    margin-bottom:20px;
+
+
+width:100%;
+
+border:none;
+
+border-radius:8px;
+
+padding:12px;
+
+margin-bottom:25px;
+
+font-size:16px;
+
 }
+
+
 
 textarea{
-    resize:none;
+
+height:110px;
+
+resize:none;
+
 }
+
+
 
 button{
-    background:#0b66b4;
-    color:white;
-    border:none;
-    padding:12px 30px;
-    border-radius:8px;
-    cursor:pointer;
-    font-size:16px;
-}
-.aviso {
-  display: none;
-  margin-top: 14px;
-  padding: 10px 14px;
-  border-radius: 6px;
-  font-weight: bold;
-}
-.aviso.error {
-  display: block;
-  background-color: #e62727;
-  color: #f7f5f5;
-  border-left: 4px solid #181717;
-}
-.aviso.exito {
-  display: block;
-  background-color: #0b7726;
-  color: #f1f1f1;
-  border-left: 4px solid #0c0c0c;
-}
-button:hover{
-    background:#084f8b;
+
+background:#0870c9;
+
+color:white;
+
+border:none;
+
+padding:14px 35px;
+
+border-radius:8px;
+
+font-size:16px;
+
+cursor:pointer;
+
 }
 
-img{
-    width:100%;
-    max-width:320px;
-    display:block;
-    margin:0 auto 30px;
+
+
+button:hover{
+
+background:#064f91;
+
 }
-section div:last-child p{
-    margin-bottom:15px;
+
+
+
+/* DERECHA */
+
+
+.informacion{
+
+width:45%;
+
+display:flex;
+
+flex-direction:column;
+
+justify-content:center;
+
+}
+
+
+
+.imagen-contacto{
+
+
+width:280px;
+
+margin:0 auto 30px;
+
+
+}
+
+
+
+.informacion p{
+
+font-size:18px;
+
+margin-bottom:18px;
+
+color:#333;
+
+}
+
+
+
+
+@media(max-width:900px){
+
+
+.contacto-box{
+
+flex-direction:column;
+
+width:90%;
+
+}
+
+
+.formulario,
+.informacion{
+
+width:100%;
+
+}
+
+
+nav{
+
+gap:20px;
+
+}
+
+
 }

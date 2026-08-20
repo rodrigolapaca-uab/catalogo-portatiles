@@ -1,0 +1,162 @@
+body{
+
+    margin:0;
+    padding:0;
+    background:#9293a6;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+
+/* ENCABEZADO */
+
+header{
+
+    height:95px;
+    background:#d9e1eb;
+    display:flex;
+    align-items:center;
+
+}
+
+
+.logo{
+
+    width:150px;
+    margin-left:40px;
+
+}
+
+
+nav{
+
+    display:flex;
+    gap:70px;
+    margin:auto;
+
+}
+
+
+nav a{
+
+    text-decoration:none;
+    color:black;
+    font-size:30px;
+    font-weight:bold;
+
+}
+
+
+nav a:hover{
+
+    color:#0066ff;
+
+}
+
+
+
+/* TITULO */
+
+.titulo{
+
+    text-align:center;
+    font-size:42px;
+    margin:40px;
+    text-decoration:underline;
+
+}
+
+
+
+/* PRODUCTOS */
+
+
+.contenedor-productos{
+
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:60px;
+
+    padding:40px 80px;
+
+
+}
+
+
+
+.producto{
+
+    text-align:center;
+
+}
+
+
+
+.producto img{
+
+
+    width:300px;
+
+    height:250px;
+
+    object-fit:contain;
+
+
+}
+
+
+
+.nombre-producto{
+
+
+    background:white;
+
+    padding:15px;
+
+    width:280px;
+
+    margin:auto;
+
+    font-size:18px;
+
+    font-weight:bold;
+
+}
+.mensaje-stock{
+
+    background:white;
+
+    width:60%;
+
+    margin:80px auto;
+
+    padding:40px;
+
+    text-align:center;
+
+    border-radius:20px;
+
+    font-size:22px;
+
+}
+
+
+.mensaje-stock h2{
+
+    font-size:35px;
+
+    color:#333;
+
+}
+
+
+.mensaje-stock p{
+
+    font-size:22px;
+
+    color:#555;
+
+}
